@@ -1,6 +1,8 @@
 This is a very basic demo for an LDR (photoresistor) to read the greyed objects from the popular chromium game "Chrome Dinosaur Game" and have this response filtered by an IIR filter and subsequently log a keypress to automate the game.
 Generally an LDR will become too slow in its response time to increased frequency of the dinosaur game, therefore this demo works up until a set point (more work required to fine tune jumping mechanism).
 
+Note: REQUIRES Arduino with ADC capabilities to read LDR response (or similar)
+
 FILES IN ZIP FOLDER INCLUDE:
 analogPrinter.py
 iir_filter.py
